@@ -3,18 +3,14 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.applications import EfficientNetB1
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.metrics import categorical_crossentropy
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import (Dense, Dropout, GlobalAveragePooling2D)
-from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 from tensorflow.keras.preprocessing import image
 from PIL import Image
 from tensorflow.keras.applications.efficientnet import preprocess_input
-from sklearn.metrics import confusion_matrix
-
 
 # Sidebar with app information
 st.sidebar.title("About")
