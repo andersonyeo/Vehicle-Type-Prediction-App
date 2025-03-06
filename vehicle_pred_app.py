@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
@@ -54,7 +53,7 @@ model = create_model()
 model.compile(optimizer=Adam(), loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Load the weights
-model_path = r"C:\Users\Anderson Yeo\Downloads\intern\efficientnet1.h5"
+model_path = "efficientnet1.h5"
 try:
     model.load_weights(model_path)
 except Exception as e:
