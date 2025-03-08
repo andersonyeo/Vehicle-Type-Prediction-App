@@ -11,3 +11,5 @@ Supported vehicle types:
 - Trains 
 
 Link to the prediction app: https://vehiclepredictionapp.streamlit.app/
+
+Dataset: https://www.kaggle.com/datasets/mohamedmaher5/vehicle-classification
